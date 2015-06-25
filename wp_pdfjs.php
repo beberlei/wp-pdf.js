@@ -53,7 +53,7 @@ function wp_pdfjs_func( $atts ) {
                 'id' => '-1',
                 'url' => '',
                 'scale' => '1.5',
-                'download' => true,
+                'download' => false,
                     ), $atts);
 
     if ($atts['id'] <= 0 && $atts['url'] == '') {
@@ -77,18 +77,18 @@ function wp_pdfjs_func( $atts ) {
 
     $return_str = <<<HTML
 <div id="wp_pdfjs_canvas_container_{$id}" data-wp-pdf="{$presentation_url}" data-wp-pdf-scale="{$scale}">
-    <canvas style='border:1px solid black'>
+    <canvas style="border:1px solid black;width:100%;">
     Loading ....
     </canvas>
 
-    <div data-wp-pdfjs-pagination class='wp_pdfjs_navi'>
+    <div data-wp-pdfjs-pagination class="wp_pdfjs_navi">
         <center>
         <!-- DOWNLOAD_LINK -->
-        <a href='#' data-wp-pdf-prev><img src='{$pdfjs_image_url}glyphicons_210_left_arrow.png'/></a>
+        <a href="#" data-wp-pdf-prev><img src="{$pdfjs_image_url}glyphicons_210_left_arrow.png"/></a>
         &nbsp;
         <small><span data-wp-pdfjs-page-num></span> / <span data-wp-pdfjs-page-total></span></small>
         &nbsp;
-        <a href="#" data-wp-pdf-next><img src='{$pdfjs_image_url}glyphicons_211_right_arrow.png'/></a>
+        <a href="#" data-wp-pdf-next><img src="{$pdfjs_image_url}glyphicons_211_right_arrow.png"/></a>
       </center>
     </div><br/>
 </div>
