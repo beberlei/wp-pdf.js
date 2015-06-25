@@ -68,7 +68,7 @@
             elem.find('[data-wp-pdf-next]').click(wp_pdfjs_goNext);
             elem.find('canvas').click(wp_pdfjs_goNext);
 
-            $("body").on('keydown', function(ev) {
+            $("body").on('keyup', function(ev) {
                 if (ev.keyCode === 37) { // LEFT
                     wp_pdfjs_goPrevious(ev);
                 } else if (ev.keyCode === 39) { // RIGHT
