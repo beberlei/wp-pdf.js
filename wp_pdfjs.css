@@ -55,47 +55,47 @@ body#media-upload ul#sidemenu {
     border-bottom-style: solid;
 }
 
-#menu-posts-feedback .wp-menu-image img { 
-    display: none; 
+#menu-posts-feedback .wp-menu-image img {
+    display: none;
 }
-#adminmenu .menu-icon-feedback:hover div.wp-menu-image, 
-#adminmenu .menu-icon-feedback.wp-has-current-submenu div.wp-menu-image, 
-#adminmenu .menu-icon-feedback.current div.wp-menu-image { 
-    background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important; 
+#adminmenu .menu-icon-feedback:hover div.wp-menu-image,
+#adminmenu .menu-icon-feedback.wp-has-current-submenu div.wp-menu-image,
+#adminmenu .menu-icon-feedback.current div.wp-menu-image {
+    background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important;
 }
-#adminmenu .menu-icon-feedback div.wp-menu-image, 
-#adminmenu .menu-icon-feedback div.wp-menu-image, 
-#adminmenu .menu-icon-feedback div.wp-menu-image { 
-    background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important; 
+#adminmenu .menu-icon-feedback div.wp-menu-image,
+#adminmenu .menu-icon-feedback div.wp-menu-image,
+#adminmenu .menu-icon-feedback div.wp-menu-image {
+    background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important;
 }
-#wp_pdfjs-menu-button { 
-    background: url("./images/pdfjs-icon.png") no-repeat; 
+#wp_pdfjs-menu-button {
+    background: url("./images/pdfjs-icon.png") no-repeat;
     width: 20px;
-    height: 14px; 
-    margin: 4px; 
-    display: inline-block; 
+    height: 14px;
+    margin: 4px;
+    display: inline-block;
     vertical-align: middle;
 }
 
-@media only screen and (-moz-min-device-pixel-ratio: 1.5), 
-only screen and (-o-min-device-pixel-ratio: 3/2), 
-only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+@media only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {
-    #adminmenu .menu-icon-feedback:hover div.wp-menu-image, 
-    #adminmenu .menu-icon-feedback.wp-has-current-submenu div.wp-menu-image, 
-    #adminmenu .menu-icon-feedback.current div.wp-menu-image { 
+    #adminmenu .menu-icon-feedback:hover div.wp-menu-image,
+    #adminmenu .menu-icon-feedback.wp-has-current-submenu div.wp-menu-image,
+    #adminmenu .menu-icon-feedback.current div.wp-menu-image {
         background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important;
-        background-size: 15px 16px !important; 
+        background-size: 15px 16px !important;
     }
-    #adminmenu .menu-icon-feedback div.wp-menu-image, 
-    #adminmenu .menu-icon-feedback div.wp-menu-image, 
-    #adminmenu .menu-icon-feedback div.wp-menu-image { 
+    #adminmenu .menu-icon-feedback div.wp-menu-image,
+    #adminmenu .menu-icon-feedback div.wp-menu-image,
+    #adminmenu .menu-icon-feedback div.wp-menu-image {
         background: url("./images/pdfjs-icon.png") no-repeat 7px 7px !important;
-        background-size: 15px 16px !important; 
+        background-size: 15px 16px !important;
     }
-    #wp_pdfjs-menu-button { 
-        background-image: url("./images/pdfjs-icon.png"); 
-        background-size: 14px 20px !important; 
-        vertical-align: bottom; 
+    #wp_pdfjs-menu-button {
+        background-image: url("./images/pdfjs-icon.png");
+        background-size: 14px 20px !important;
+        vertical-align: bottom;
     }
 }

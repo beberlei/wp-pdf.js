@@ -18,6 +18,6 @@ jQuery(document).ready(function(){
             $('#wp_pdfjs-menu-button').click(function(e) {
                 frame.open();
             });
-        }       
-    })(jQuery);  
-})
+        }
+    })(jQuery);
+});
