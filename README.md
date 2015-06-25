@@ -8,6 +8,13 @@ Original Contributors: hkropp
 License: GPLv3 
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
+## Fork
+
+The following changes have been added to this fork:
+
+- Extract javascript code from PHP shortcode generation, use a reusable jQuery plugin instead
+- Add keyboard support (keyup left and right advance the slides)
+
 ## Installation
 
 - Download ZIP file from Github and unzip contents into your wp-contents/plugins/wp-pdfjs directory.
