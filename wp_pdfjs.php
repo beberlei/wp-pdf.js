@@ -77,7 +77,7 @@ function wp_pdfjs_func( $atts ) {
 
     $return_str = <<<HTML
 <div id="wp_pdfjs_canvas_container_{$id}" data-wp-pdf="{$presentation_url}" data-wp-pdf-scale="{$scale}">
-    <canvas style="border:1px solid black;width:100%;">
+    <canvas style="border:1px solid #efefef;width:100%;">
     Loading ....
     </canvas>
 
