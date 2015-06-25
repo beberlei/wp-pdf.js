@@ -54,7 +54,6 @@ function wp_pdfjs_func( $atts ) {
                 'url' => '',
                 'scale' => '1.5',
                 'download' => true,
-                'width' => 'auto',
                     ), $atts);
 
     if ($atts['id'] <= 0 && $atts['url'] == '') {
@@ -75,10 +74,9 @@ function wp_pdfjs_func( $atts ) {
     $id = $atts['id'];
     $scale = $atts['scale'];
     $download = $atts['download'];
-    $width = $atts['width'];
 
     $return_str = <<<HTML
-<div id="wp_pdfjs_canvas_container_{$id}" data-wp-pdf="{$presentation_url}" data-wp-pdf-scale="{$scale}" data-wp-pdf-width="{$width}">
+<div id="wp_pdfjs_canvas_container_{$id}" data-wp-pdf="{$presentation_url}" data-wp-pdf-scale="{$scale}">
     <canvas style='border:1px solid black'>
     Loading ....
     </canvas>

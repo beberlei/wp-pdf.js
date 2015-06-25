@@ -38,9 +38,7 @@
                     jQuery('[data-wp-pdfjs-pagination]').hide();
                 }
 
-                var width = elem.data('wp-pdf-width') == 'auto'
-                    ? elem.find('canvas').width()
-                    : elem.data('wp-pdf-width');
+                var width = elem.find('canvas').width();
 
                 elem.css('width', width);
             }
